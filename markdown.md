@@ -1,3 +1,8 @@
+---
+layout: homepage
+title: Markdown cheatsheet
+---
+
 ### Headers
 
 ```markdown

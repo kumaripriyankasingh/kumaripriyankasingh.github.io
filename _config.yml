@@ -1,6 +1,7 @@
 title: Priyanka Singh
 bio: Computer Science Engineer, Insatiably curious, Perpetual Learner...
 
+
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
 keywords: minimal light
@@ -13,7 +14,10 @@ twitter: https://twitter.com/psingh_1610
 
 # Images (e.g., your profile picture and your website's favicon) 
 avatar: ./assets/images/avatar.png
-aboutme: ./_pages/aboutme.md
+
+# Footnote
+# You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
+enable_footnote: false
 
 # Google Analytics ID
 # Please remove this if you don't use Google Analytics

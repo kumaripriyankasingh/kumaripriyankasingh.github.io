@@ -20,6 +20,7 @@
 
     <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous>
     <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin=anonymous>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 
     <link rel="stylesheet" href="./assets/css/style.css">
 
@@ -27,14 +28,10 @@
   <body>
     <div class="wrapper">
       <header>
-        <nav>
-          <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="{{ site.aboutme }}">About Me</a></li>
-            <!-- Add additional navigation links here as needed -->
-          </ul>
-        </nav>
-        
+        <h1>
+          <a href="/"> <i class="fas fa-home"></i></a>
+        </h1>        
+
         {% if site.avatar %}
         <a class="image avatar"><img src="{{ site.avatar }}" alt="avatar" /></a>
         {% endif %}
@@ -91,6 +88,9 @@
       {{ content }}
 
       <br> 
+      {% if site.enable_footnote %}
+      <p><small>Powered by Jekyll and <a href="https://github.com/pages-themes/minimal" target="_blank" rel="noopener">Minimal Light</a> theme.</small></p>
+      {% endif %}
 
       </section>
       <footer>
