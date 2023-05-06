@@ -27,6 +27,13 @@
   <body>
     <div class="wrapper">
       <header>
+        <nav>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="./pages/aboutme.html">About Me</a></li>
+            <!-- Add additional navigation links here as needed -->
+          </ul>
+        </nav>
         
         {% if site.avatar %}
         <a class="image avatar"><img src="{{ site.avatar }}" alt="avatar" /></a>
@@ -78,6 +85,7 @@
         <br>
 
       </header>
+      </nav>
       <section>
 
       {{ content }}
