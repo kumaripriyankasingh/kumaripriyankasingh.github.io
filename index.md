@@ -13,6 +13,10 @@ Priyanka is a Senior Backend Engineer at Uber. She has 11+ years of experience i
 - **Algorithms**
 
 ## Tech Blogs
-{% include_relative _includes/blogs.md %}
-
 **Coming up soon!**
+
+
+{% include_relative _includes/blogs.md %}
+{% include_relative _includes/whitepapers.md %}
+
+
