@@ -1,4 +1,5 @@
 title: Priyanka Singh
+bio: Computer Science Engineer, Insatiably curious, Perpetual Learner...
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
@@ -8,6 +9,7 @@ keywords: minimal light
 # If you don't need one of them, you may delete the corresponding line.
 github_link: https://github.com/kumaripriyankasingh
 linkedin: https://www.linkedin.com/in/kumari-priyanka-singh/
+twitter: https://twitter.com/psingh_1610
 
 # Images (e.g., your profile picture and your website's favicon) 
 avatar: ./assets/images/avatar.png
