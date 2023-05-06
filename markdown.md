@@ -1,15 +1,3 @@
----
-title: Markdown
-category: Markup
-layout: 2017/sheet
-prism_languages: [markdown]
-updated: 2020-07-01
-weight: -1
----
-
-## Reference
-{:.-three-column}
-
 ### Headers
 
 ```markdown

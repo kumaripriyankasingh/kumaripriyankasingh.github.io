@@ -1,0 +1,8 @@
+title: Priyanka Singh
+github_link: https://github.com/kumaripriyankasingh
+linkedin: https://www.linkedin.com/in/kumari-priyanka-singh/
+avatar: https://twitter.com/psingh_1610/photo
+google_analytics: 
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
