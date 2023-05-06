@@ -2,85 +2,85 @@
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
     <title>{{ site.title }}</title>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ site.description }}">
     {% if site.keywords %}
     <meta name="keywords" content="{{ site.keywords }}">
     {% endif %}
+    {% if site.canonical %}
+    <link rel="canonical" href="{{ site.canonical }}"/>
+    {% endif %}
 
-<!-- {% seo %}
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <![endif]-->
-    <!-- {% include head-custom.html %}  -->
+    <link rel="icon" media="(prefers-color-scheme:dark)" href="{{ site.favicon_dark }}" type="image/png" />
+    <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon }}" type="image/png" />
+    <script src="./assets/js/favicon-switcher.js" type="application/javascript"></script>
+
     <link rel="stylesheet" href="./assets/css/style.css">
+
   </head>
   <body>
     <div class="wrapper">
       <header>
-        <!-- <title> {{ site.title }} </title> -->
-        <!-- <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-
-        {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
-        {% endif %}
-
-        <p>{{ site.description | default: site.github.project_tagline }}</p> -->
-
-        <!-- {% if site.github.is_project_page %}
-        <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
-        {% endif %} -->
-
-        <!-- {% if site.github_link %}
-        <p class="view"><a href="https://github.com/kumaripriyankasingh">View My GitHub Profile</a></p>
-        {% endif %} -->
-
-        <!-- {% if site.linkedin %} -->
-        <!-- <a style="margin: 0 5px 0 0" href="{{ site.linkedin }}">
-          <i class="fab fa-linkedin"></i>
-        </a> -->
-        <!-- <p class="view"><a href="https://github.com/kumaripriyankasingh">View My GitHub Profile</a></p> -->
-        <!-- {% endif %}  -->
-          
+        
         {% if site.avatar %}
         <a class="image avatar"><img src="{{ site.avatar }}" alt="avatar" /></a>
         {% endif %}
 
         <h1>{{ site.title }}</h1>
 
-        <div class="social-icons">       
-    
-            {% if site.github_link %}
-            <a style="margin: 0 5px 0 0" href="{{ site.github_link }}">
-              <i class="fab fa-github"></i>
-            </a>
-            {% endif %}
-    
-            {% if site.linkedin %}
-            <a style="margin: 0 5px 0 0" href="{{ site.linkedin }}">
-              <i class="fab fa-linkedin"></i>
-            </a>
-            {% endif %}
-    
-          
-            </div>
-     
+        {% if site.position %}
+        <position style="font-size:1.10rem;">{{ site.position }}</position>
+        <br>
+        {% endif %}
+        {% if site.affiliation %}
+        <a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
+        <br>
+        {% endif %}
+        {% if site.email %}
+        <email>{{ site.email }}</email>
+        {% endif %}
+
+        <br>
+        <br>
+        <div class="social-icons">      
+
+        {% if site.cv_link %}
+        <a style="margin: 0 5px 0 0" href="{{ site.cv_link }}">
+          <i class="ai ai-cv" style="font-size:1.3rem;"></i>
+        </a>
+        {% endif %}
+
+        {% if site.github_link %}
+        <a style="margin: 0 5px 0 0" href="{{ site.github_link }}">
+          <i class="fab fa-github"></i>
+        </a>
+        {% endif %}
+
+        {% if site.linkedin %}
+        <a style="margin: 0 5px 0 0" href="{{ site.linkedin }}">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        {% endif %}
+
+        </div>
+        <br>
+
       </header>
       <section>
 
       {{ content }}
 
+      <br> 
+
       </section>
-      <!-- <footer>
-        {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer> -->
+      <footer>
+        
+      </footer>
     </div>
-        <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
     {% if site.google_analytics %}
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
