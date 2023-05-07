@@ -16,8 +16,14 @@ Priyanka is a Senior Backend Engineer at Uber. She has 11+ years of experience i
 [White Papers](./whitepapers.md)
 
 
-## Tech Blogs
-[First Blog](./blogs.md)
+## Backend Concepts
+[What is a Distributed System?](./whatisdistributedsystem.md)
+
+[Clock Synchronization in Distributed Systems](./clocksynchronization.md)
+
+[Distributed Transaction in Microservices](./distributedtransaction.md)
+
+[Handling Cache Invalidation and Consistency in Distributed Systems](./cacheinvalidation.md)
 
 <!-- {% include_relative _includes/publications.md %} -->
 
