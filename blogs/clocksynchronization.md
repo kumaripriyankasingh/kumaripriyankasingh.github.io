@@ -1,5 +1,5 @@
 ---
-layout: homepage
+layout: blogpage
 ---
 
 # Clock Synchronization in Distributed Systems

@@ -1,5 +1,5 @@
 ---
-layout: homepage
+layout: blogpage
 ---
 
 # Handling Cache Invalidation and Consistency Across Multiple Servers

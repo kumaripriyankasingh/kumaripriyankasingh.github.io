@@ -1,10 +1,10 @@
 ---
-layout: homepage
+layout: blogpage
 ---
 
 # What is a Distributed System?
 
-A distributed system is a collection of independent computers that work together to solve a problem or perform a task. In a distributed system, each computer (also called a node or a server) operates independently, but can communicate and coordinate with other nodes in the system. 
+A distributed system is a collection of independent computers that work together to solve a problem or perform a task. In a distributed system, each computer (also called a node or a server) operates independently, but can communicate and coordinate with other nodes in the system.
 
 Distributed systems are used in a variety of applications where scalability, fault tolerance, and geographical distribution are critical. They have become increasingly popular in recent years due to the explosion of data and the need to process large amounts of data quickly and efficiently.
 
