@@ -1,5 +1,5 @@
 ---
-layout:techpage
+layout: techpage
 ---
 
 # Distributed Transactions in Microservices
