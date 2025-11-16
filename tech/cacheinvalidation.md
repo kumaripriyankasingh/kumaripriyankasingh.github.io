@@ -1,5 +1,5 @@
 ---
-layout: blogpage
+layout: tech
 ---
 
 # Handling Cache Invalidation and Consistency Across Multiple Servers

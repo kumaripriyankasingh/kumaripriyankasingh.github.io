@@ -1,5 +1,5 @@
 ---
-layout: blogpage
+layout:tech
 ---
 
 # Distributed Transactions in Microservices

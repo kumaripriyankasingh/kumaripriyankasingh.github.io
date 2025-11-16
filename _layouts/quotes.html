@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+<head>
+  <title>Quotes | Priyanka's Website</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../assets/css/style.css">
+
+  <style>
+    .quote-container {
+      margin-bottom: 30px;
+      padding-left: 20px;
+      border-left: 4px solid #ccc; /* Visual accent bar */
+    }
+    .quote-text {
+      font-size: 22px;
+      font-style: italic;
+      font-family: serif;
+      margin: 0;
+    }
+    .quote-author {
+      font-size: 16px;
+      color: #555;
+      margin-top: 5px;
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+<div class="wrapper">
+  <nav class="top-right-menu">
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/blogs/">Blogs</a></li>
+      <li><a href="/tech/">Tech</a></li>
+      <li><a href="/bookshelf/">Bookshelf</a></li>
+      <li><a href="/quotes/">Quotes</a></li>
+      <li><a href="https://topmate.io/psingh">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <h1>Favorite Quotes</h1>
+  </header>
+
+  <section>
+    {% for quote in site.data.quotes %}
+    <div class="quote-container">
+      <p class="quote-text">"{{ quote.text }}"</p>
+      <cite class="quote-author">— {{ quote.author }}</cite>
+    </div>
+    {% endfor %}
+
+    <br>
+  </section>
+
+  <footer>
+  </footer>
+</div>
+</body>
+</html>

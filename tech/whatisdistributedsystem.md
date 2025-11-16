@@ -1,5 +1,5 @@
 ---
-layout: blogpage
+layout: tech
 ---
 
 # What is a Distributed System?
