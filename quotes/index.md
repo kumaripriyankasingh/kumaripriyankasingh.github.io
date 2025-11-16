@@ -1,6 +1,7 @@
 ---
-layout: quotes
+layout: techpage
 ---
+
 > There is your truth and there is my truth. As for the universal truth, it does not exist.
 >
 > — Amish tripathi

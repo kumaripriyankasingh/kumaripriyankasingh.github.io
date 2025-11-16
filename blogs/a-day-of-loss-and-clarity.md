@@ -1,8 +1,9 @@
 ---
-layout: blogpage
+layout: techpage
 title: "A Day of Loss and Clarity"
 permalink: /blogs/a-day-of-loss-and-clarity/
 ---
+
 ## **A Day of Loss and Clarity**
 
 ![](/assets/images/a-day-of-loss-and-clarity.png)
