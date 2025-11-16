@@ -1,5 +1,7 @@
 ---
 layout: blogpage
+title: "A Day of Loss and Clarity"
+permalink: /blogs/a-day-of-loss-and-clarity/
 ---
 ## **A Day of Loss and Clarity**
 

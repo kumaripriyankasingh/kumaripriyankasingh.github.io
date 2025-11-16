@@ -1,5 +1,7 @@
 ---
 layout: blogpage
+title: "God Fearing or God Loving?"
+permalink: /blogs/god-fearing-or-god-loving/
 ---
 
 ## God Fearing or God Loving?
