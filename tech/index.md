@@ -1,5 +1,5 @@
 ---
-layout: techpage
+layout: default
 ---
 
 ## [What is a Distributed System?](whatisdistributedsystem.md)
@@ -9,3 +9,5 @@ layout: techpage
 ## [Distributed Transaction in Microservices](distributedtransaction.md)
 
 ## [Handling Cache Invalidation and Consistency](cacheinvalidation.md)
+
+## [Deconstructing Multi-Agent Architecture](deconstructing-multi-agent-architecture.md)

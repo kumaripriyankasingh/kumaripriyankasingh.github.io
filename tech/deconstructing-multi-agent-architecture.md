@@ -1,8 +1,8 @@
 ---
-layout: techpage
+layout: default
 ---
 
-## What is Multi-Agent Architecture?
+# What is Multi-Agent Architecture?
 
 ![](../assets/images/deconstructing-multi-agent.png)
 
@@ -13,7 +13,7 @@ This is the core idea behind **Multi-Agent Architecture**, a design paradigm tha
 A great lens through which to understand this concept is [Google's Agent Development Kit ](https://google.github.io/adk-docs/)**(ADK)**, which provides a conceptual framework for building these collaborative AI systems. Let's dive into the core principles of multi-agent architecture, using the ADK's philosophy as our guide.
 
 
-### **What is an "Agent"?**
+## What is an "Agent"?
 
 First, let's clarify what we mean by an agent. In the context of the ADK, an agent isn't just a chatbot or a simple script. A true agent is an autonomous system that can:
 
@@ -27,7 +27,7 @@ First, let's clarify what we mean by an agent. In the context of the ADK, an age
 Think of an agent as a specialized employee. One might be a **"Database Guru"** who knows exactly how to query complex SQL databases. Another might be a **"Creative Writer"** who excels at generating human-like text. A third could be a **"Code Interpreter"** who can write and execute scripts.
 
 
-### **How Agents Work Together?**
+## How Agents Work Together?
 
 The magic of a multi-agent system lies in how these specialized agents communicate and collaborate. A complex user request is rarely a one-step task.
 
@@ -47,7 +47,7 @@ Here’s how it would work in a system inspired by the ADK:
 
 This is a simplified example, but it highlights the core strength of this architecture: **modularity and specialization**.
 
-### **Why is This a Better Approach?**
+## Why is This a Better Approach?
 
 Building AI systems this way has several powerful advantages:
 *   **Efficiency:** Each agent is small and optimized for a specific task. It's much easier to create a great data analysis agent than it is to create a single model that is a great data analyst, a great writer, _and_ a great programmer.
@@ -56,7 +56,7 @@ Building AI systems this way has several powerful advantages:
 *   **Resilience:** If one agent fails, it doesn't necessarily bring down the entire system. The Orchestrator can potentially re-assign the task or try a different approach.
 
 
-### **The Road Ahead**
+## The Road Ahead
 
 The shift to multi-agent architecture is more than just a technical detail; it's a fundamental change in how we think about building intelligent systems. It's a move away from the lone genius and toward the high-performing, collaborative team.
 

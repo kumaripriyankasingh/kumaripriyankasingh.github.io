@@ -1,5 +1,5 @@
 ---
-layout: techpage
+layout: default
 ---
 
 # Clock Synchronization in Distributed Systems

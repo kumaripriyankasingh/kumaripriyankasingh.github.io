@@ -1,5 +1,5 @@
 ---
-layout: techpage
+layout: default
 ---
 
 ## [A Day of Loss and Clarity](a-day-of-loss-and-clarity.md)

@@ -1,10 +1,8 @@
 ---
-layout: techpage
-title: "A Day of Loss and Clarity"
-permalink: /blogs/a-day-of-loss-and-clarity/
+layout: default
 ---
 
-## **A Day of Loss and Clarity**
+# A Day of Loss and Clarity
 
 ![](/assets/images/a-day-of-loss-and-clarity.png)
 

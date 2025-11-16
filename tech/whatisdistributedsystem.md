@@ -1,5 +1,5 @@
 ---
-layout: techpage
+layout: default
 ---
 
 # What is a Distributed System?

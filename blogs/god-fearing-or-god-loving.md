@@ -1,8 +1,8 @@
 ---
-layout: techpage
+layout: default
 ---
 
-## God Fearing or God Loving?
+# God Fearing or God Loving?
 
 ![](../assets/images/god-fearing-or-god-loving.webp)
 

@@ -1,5 +1,5 @@
 ---
-layout: techpage
+layout: default
 ---
 
 > There is your truth and there is my truth. As for the universal truth, it does not exist.
@@ -32,7 +32,7 @@ layout: techpage
 
 > Live in the present, launch yourself on every wave, find your eternity in each moment. Fools stand on their island of opportunities and look toward another land. There is no other land; there is no other life but this.
 >
-- Henry David Thoreau
+> — Henry David Thoreau
 
 > Nothing is as good or as bad as it seems.
 >
