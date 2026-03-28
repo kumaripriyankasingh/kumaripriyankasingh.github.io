@@ -36,7 +36,7 @@ But what if you aren’t lucky? What if you realize you’ve tethered yourself t
 ---
 
 
-#### **The Live Toy Strategy**
+### **The Live Toy Strategy**
 
 Once the marriage starts feeling a bit... quiet (or loud for the wrong reasons), the next logical step appears: The Child.
 
