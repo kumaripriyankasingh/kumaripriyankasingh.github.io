@@ -1,5 +1,8 @@
 ---
 layout: default
+
+date: 2023-11-10
+
 ---
 
 # God Fearing or God Loving?

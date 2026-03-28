@@ -11,7 +11,9 @@ date: 2026-03-28
 **Disclaimer:** This post might not sit well with everyone. Truth is like a strong cup of black coffee—bitter, harsh, and likely to keep you up at night. 
 If you prefer your reality sugar-coated, look away now. 
 
-Still here? Grab a pinch of salt. You’re going to need it.
+Still here? 
+
+Grab a pinch of salt. You’re going to need it.
 
 ---
 

@@ -1,5 +1,9 @@
 ---
 layout: default
+
+date: 2025-10-22
+
+
 ---
 
 # A Day of Loss and Clarity
