@@ -6,8 +6,4 @@ layout: default
 
 ## [God Fearing or God Loving?](god-fearing-or-god-loving.md)
 
-## [Relationship Advice from Shiva and Parvati](relationship-advice-from-shiva-parvati.md)
-
-## [When Success feels like Selfishness](when-success-feels-like-selfishness.md)
-
 ## [The Happily Ever After Delusion](the-happily-ever-after-delusion.md)
