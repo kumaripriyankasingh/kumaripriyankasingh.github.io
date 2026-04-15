@@ -11,3 +11,5 @@ layout: default
 ## [Handling Cache Invalidation and Consistency](cacheinvalidation.md)
 
 ## [Deconstructing Multi-Agent Architecture](deconstructing-multi-agent-architecture.md)
+
+## [Mastering Prompt Engineering in 2026](deconstructing-multi-agent-architecture.md)
