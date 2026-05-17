@@ -17,8 +17,6 @@ She is a person who deeply loves her solitude. In a society that fears being alo
 She is the one who is there for everyone else, often at the expense of her own peace. She gives without a script, loves without an audience, and asks for absolutely nothing in return. It’s a rare, platinum kind of heart. I often find myself baffled—why is it that the most beautiful, truly kind souls are the ones the world knows the least about?
 
 ## The Meaning of "Jyoti"
-She is a person who deeply loves her solitude. In a society that fears being alone, she embraces it. Yet, here is the beautiful irony: despite her quiet life, she is more loyal and more "present" than almost anyone I’ve ever met.
-
 There is a beautiful symmetry to who you are, my friend. Your name, "Jyoti," literally means light. And I need you to know how deeply that name fits you.
 
 You aren’t a blinding spotlight that demands attention. Instead, you are the soft, steady glow of a candle that illuminates a dark room. You are the warmth that guides people home when they are lost. For so many of us, you are the defining light in our lives. 
