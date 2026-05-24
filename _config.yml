@@ -11,6 +11,7 @@ keywords: minimal light
 github_link: https://github.com/kumaripriyankasingh
 linkedin: https://www.linkedin.com/in/kumari-priyanka-singh/
 twitter: https://twitter.com/psingh_1610
+email: priyankasingh.136@gmail.com
 
 # Images (e.g., your profile picture and your website's favicon) 
 avatar: ./assets/images/avatar.png
@@ -24,3 +25,11 @@ enable_footnote: false
 google_analytics: 
 
 remote_theme: pages-themes/minimal@v0.2.0
+
+collections:
+  blogs:
+    output: true
+    permalink: /blogs/:name/
+  tech:
+    output: true
+    permalink: /tech/:name/

@@ -1,6 +1,6 @@
 ---
 layout: default
-
+title: "Just When I thought I figured out"
 date: 2026-04-10
 
 

@@ -1,8 +1,7 @@
 ---
 layout: default
-
+title: "The Quiet Brilliance of the Unseen: A Birthday Note for My Friend"
 date: 2026-05-02
-
 ---
 
 # The Quiet Brilliance of the Unseen: A Birthday Note for My Friend

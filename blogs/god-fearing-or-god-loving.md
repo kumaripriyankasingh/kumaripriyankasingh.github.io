@@ -1,6 +1,6 @@
 ---
 layout: default
-
+title: "God Fearing or God Loving?"
 date: 2023-11-10
 
 ---

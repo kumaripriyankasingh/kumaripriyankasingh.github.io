@@ -1,6 +1,6 @@
 ---
 layout: default
-
+title: "A Day of Loss and Clarity"
 date: 2025-10-22
 
 

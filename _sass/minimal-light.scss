@@ -711,3 +711,54 @@ screen and (max-width: 480px) {
 .wrapper {
   position: relative;
 }
+
+.recent-posts {
+  margin-top: 2rem;
+  h2 {
+      font-size: 1rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #6c757d;
+      margin-bottom: 1.25rem;
+      font-family: inherit;
+    }
+
+  .post-item {
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid #eee;
+  }
+
+  .post-title {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #0070c0;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 4px;
+    &:hover { text-decoration: underline; }
+  }
+
+  .post-meta {
+    font-size: 0.8rem;
+    color: #aaa;
+    display: block;
+    margin-bottom: 6px;
+  }
+
+  .post-description {
+      font-size: 0.9rem;
+      color: #555;
+      margin: 0;
+  }
+
+  .view-all {
+    display: inline-block;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #0070c0;
+    text-decoration: none;
+    &:hover { text-decoration: underline; }
+  }
+}

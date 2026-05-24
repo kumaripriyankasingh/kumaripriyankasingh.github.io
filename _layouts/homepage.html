@@ -92,6 +92,12 @@
         </a>
         {% endif %}
 
+        {% if site.email %}
+        <a style="margin: 0 5px 0 0" href="mailto:{{ site.email }}">
+          <i class="fas fa-envelope"></i>
+        </a>
+        {% endif %}
+
       </div>
       <br>
     </header>
@@ -100,6 +106,18 @@
 
       {{ content }}
 
+      <section class="recent-posts">
+        <h2>Recent Posts</h2>
+        {% assign blog_posts = site.pages | where_exp: "p", "p.path contains 'blogs/'" | where_exp: "p", "p.path != 'blogs/index.md'" %}
+        {% assign tech_posts = site.pages | where_exp: "p", "p.path contains 'tech/'" | where_exp: "p", "p.path != 'tech/index.md'" %}
+        {% assign all_posts = blog_posts | concat: tech_posts | sort: 'date' | reverse %}
+        {% for post in all_posts limit:5 %}
+        <div class="post-item">
+          <a class="post-title" href="{{ post.url }}">{{ post.title }}</a>
+          <span class="post-meta">{{ post.date | date: "%b %d, %Y" }}</span>
+        </div>
+        {% endfor %}
+      </section>
       <br>
       {% if site.enable_footnote %}
       <p><small>Powered by Jekyll and <a href="https://github.com/pages-themes/minimal" target="_blank"

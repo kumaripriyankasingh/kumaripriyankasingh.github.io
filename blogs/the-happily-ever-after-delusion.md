@@ -1,6 +1,6 @@
 ---
 layout: default
-
+title: "The Happily Ever After Delusion"
 date: 2026-03-28
 
 
