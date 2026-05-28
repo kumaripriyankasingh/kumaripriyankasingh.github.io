@@ -7,7 +7,7 @@ date: 2023-11-10
 
 # God Fearing or God Loving?
 
-![](../assets/images/god-fearing-or-god-loving.webp)
+![](../assets/images/god-fearing-or-god-loving.png)
 
 India is currently wrapped in the colors, sounds, and vibrant energy of festival season. As streets fill with people participating in various rituals and ceremonies, there’s a clear display of devotion and an aim to please God. However, as I observe these practices unfold, I can’t help but ponder: Is this the only way to connect with the divine?
 

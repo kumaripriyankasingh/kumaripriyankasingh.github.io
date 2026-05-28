@@ -22,7 +22,7 @@ You aren’t a blinding spotlight that demands attention. Instead, you are the s
 
 You take care of more people from your place of solitude than most people in "active" relationships ever will. You are a diamond in a world of glass, and I am genuinely proud to have met you in this lifetime.
 
-![](/assets/images/a-birthday-note-for-my-friend.png)
+![](../assets/images/a-birthday-note-for-my-friend.png)
 
 ---
 

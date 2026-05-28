@@ -52,4 +52,4 @@ If you find yourself today thinking you finally understand "the way things are,"
 
 The only thing we can really do is stay open to being shattered...
 
-![](../assets/images/the-happily-ever-after-delusion.png)
+![](../assets/images/just-when-i-thought-i-figured-out.png)

@@ -8,7 +8,7 @@ date: 2025-10-22
 
 # A Day of Loss and Clarity
 
-![](/assets/images/a-day-of-loss-and-clarity.png)
+![](../assets/images/a-day-of-loss-and-clarity.png)
 
 Today, 22nd Oct, 2025, my _Nana Ji_ (my mom's father) died.
 
