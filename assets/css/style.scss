@@ -2,3 +2,119 @@
 ---
 
 @import "minimal-light";
+
+/* Restore original top-right navigation menu styling */
+.top-right-menu {
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+.top-right-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.top-right-menu ul li {
+  display: inline-block;
+  margin-left: 15px;
+}
+.top-right-menu ul li:first-child {
+  margin-left: 0;
+}
+.top-right-menu ul li a {
+  color: #043361 !important;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* Subscription form styles */
+.subscribe-section {
+  background: transparent;
+  margin: 2rem 0 2rem 0;
+  padding: 1.5rem 0;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  color: #595959;
+  font: inherit;
+  text-align: center;
+}
+.subscribe-section h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #043361;
+  letter-spacing: 0;
+}
+.subscribe-form {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 0.8rem 0;
+}
+.subscribe-form input[type="email"] {
+  padding: 0.35rem 0.6rem;
+  border-radius: 3px;
+  border: 1px solid #d0d0d0;
+  font: 0.95rem inherit;
+  color: #595959;
+  background: #fff;
+  width: 250px;
+}
+.subscribe-form input[type="email"]::placeholder {
+  color: #999;
+}
+.subscribe-form input[type="email"]:focus {
+  outline: none;
+  border-color: #043361;
+  box-shadow: 0 0 0 2px rgba(3,115,180,0.1);
+}
+.subscribe-form .button,
+.subscribe-form button {
+  padding: 0.35rem 0.8rem;
+  border-radius: 3px;
+  border: 1px solid #d0d0d0;
+  background: #fff;
+  color: #043361;
+  cursor: pointer;
+  font: 0.95rem inherit;
+  font-weight: 500;
+  white-space: nowrap;
+  transition: all 0.15s ease;
+}
+.subscribe-form .button:hover,
+.subscribe-form button:hover {
+  border-color: #043361;
+  background: #f9f9f9;
+}
+.subscribe-hint {
+  margin-top: 0.6rem;
+  font-size: 0.9rem;
+  color: #888;
+  line-height: 1.4;
+}
+.subscribe-hint code {
+  background: transparent;
+  padding: 0;
+  border-radius: 0;
+  color: #555;
+  font-family: 'Courier New', monospace;
+  font-size: 0.88em;
+}
+.sr-only { position: absolute !important; height: 1px; width: 1px; overflow: hidden; clip: rect(1px, 1px, 1px, 1px); }
+
+@media (max-width: 640px) {
+  .subscribe-form {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.4rem;
+  }
+  .subscribe-form input[type="email"] {
+    width: 100%;
+  }
+  .subscribe-form .button,
+  .subscribe-form button {
+    width: 100%;
+  }
+}

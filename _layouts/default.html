@@ -9,6 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
 </head>
 
 <body>
@@ -40,6 +41,10 @@
       </p>
 
       {{ content }}
+
+      {% if page.path contains 'blogs/' or page.path contains 'tech/' %}
+      {% include subscribe.html %}
+      {% endif %}
 
       <br>
     </section>
