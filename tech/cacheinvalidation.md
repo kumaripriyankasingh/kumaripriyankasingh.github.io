@@ -1,5 +1,8 @@
 ---
 layout: default
+title: "Handling Cache Invalidation and Consistency Across Multiple Servers"
+date: 2026-02-15
+tl_dr: "Cache invalidation is hard. Explore TTL, event-driven, and active strategies to keep your cache fresh without crushing your source systems."
 ---
 
 # Handling Cache Invalidation and Consistency Across Multiple Servers

@@ -1,5 +1,8 @@
 ---
 layout: default
+title: "Clock Synchronization in Distributed Systems"
+date: 2026-02-10
+tl_dr: "Accurate timekeeping across distributed nodes is critical. Learn how NTP, PTP, and other protocols keep your system's clocks in sync."
 ---
 
 # Clock Synchronization in Distributed Systems

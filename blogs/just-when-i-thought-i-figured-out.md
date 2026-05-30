@@ -2,8 +2,7 @@
 layout: default
 title: "Just When I thought I figured out"
 date: 2026-04-10
-
-
+tl_dr: "Life loves plot twists. Just when you think you've figured it all out, a profound shift reminds you that you're not in control—and that's the whole point."
 ---
 
 # Just When I thought I figured out

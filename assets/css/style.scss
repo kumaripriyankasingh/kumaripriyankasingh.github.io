@@ -104,6 +104,27 @@
 }
 .sr-only { position: absolute !important; height: 1px; width: 1px; overflow: hidden; clip: rect(1px, 1px, 1px, 1px); }
 
+/* Code block styling */
+pre {
+  overflow-x: auto;
+  overflow-y: hidden;
+  max-width: 100%;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  padding: 12px;
+  border-radius: 4px;
+  background: #f6f8fa;
+  border: 1px solid #ddd;
+  font-size: 0.9em;
+  line-height: 1.45;
+}
+
+pre code {
+  word-break: break-word;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+}
+
 @media (max-width: 640px) {
   .subscribe-form {
     flex-direction: column;

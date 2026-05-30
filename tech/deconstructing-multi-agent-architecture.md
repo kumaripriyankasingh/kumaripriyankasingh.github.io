@@ -1,5 +1,8 @@
 ---
 layout: default
+title: "Deconstructing Multi-Agent Architecture"
+date: 2026-03-05
+tl_dr: "The future of AI isn't one super-intelligence—it's a team of specialized agents working in concert. Explore how multi-agent systems transform complex problem-solving."
 ---
 
 # What is Multi-Agent Architecture?

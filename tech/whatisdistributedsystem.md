@@ -1,5 +1,8 @@
 ---
 layout: default
+title: "What is a Distributed System?"
+date: 2026-01-25
+tl_dr: "Distributed systems power the internet. Learn the fundamentals: scalability, fault tolerance, consistency, and the trade-offs that define modern architecture."
 ---
 
 # What is a Distributed System?

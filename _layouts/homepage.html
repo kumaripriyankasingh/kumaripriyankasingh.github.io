@@ -103,15 +103,22 @@
 
       {{ content }}
 
+      <hr>
       <section class="recent-posts">
         <h2>Recent Posts</h2>
         {% assign blog_posts = site.pages | where_exp: "p", "p.path contains 'blogs/'" | where_exp: "p", "p.path != 'blogs/index.md'" %}
         {% assign tech_posts = site.pages | where_exp: "p", "p.path contains 'tech/'" | where_exp: "p", "p.path != 'tech/index.md'" %}
         {% assign all_posts = blog_posts | concat: tech_posts | sort: 'date' | reverse %}
-        {% for post in all_posts limit:5 %}
+        {% for post in all_posts limit:10 %}
         <div class="post-item">
           <a class="post-title" href="{{ post.url }}">{{ post.title }}</a>
           <span class="post-meta">{{ post.date | date: "%b %d, %Y" }}</span>
+          {% if post.tl_dr %}
+            <p class="post-excerpt">{{ post.tl_dr }}</p>
+          {% else %}
+            {% capture excerpt_text %}{{ post.content | strip_html | replace: post.title, "" | replace: "# ", "" | replace: "## ", "" | replace: "### ", "" | replace: "**", "" | strip_newlines | truncate: 280 }}{% endcapture %}
+            <p class="post-excerpt">{{ excerpt_text }}</p>
+          {% endif %}
         </div>
         {% endfor %}
       </section>

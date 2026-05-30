@@ -2,6 +2,7 @@
 layout: default
 title: "The Quiet Brilliance of the Unseen: A Birthday Note for My Friend"
 date: 2026-05-02
+tl_dr: "A heartfelt birthday letter celebrating the quiet brilliance of a friend who lights up everyone's lives from the shadows—and a gentle reminder that even anchors deserve to rest."
 ---
 
 # The Quiet Brilliance of the Unseen: A Birthday Note for My Friend

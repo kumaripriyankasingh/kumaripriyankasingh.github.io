@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "The Hidden Cost of Fast Code: Why AI Coding Needs a "Plan-First" Paradigm Shift"
+title: "The Hidden Cost of Fast Code: Why AI Coding Needs a \"Plan-First\" Paradigm Shift"
 date: 2026-05-29
 ---
 
@@ -178,7 +178,8 @@ When your planning agent starts up, it reads CLAUDE.md first. This guarantees it
 
 ### Step 2: The Planning Compiler
 Create a simple backend service that compiles a structured JSON plan from an issue description.
-```markdown
+{% raw %}
+```python
 import json
 import anthropic
 
@@ -193,17 +194,17 @@ def compile_coding_plan(issue_description, directory_skeleton):
     Directory Structure: {directory_skeleton}
     
     Output a strict JSON object matching this schema:
-    {{
+    {
       "phases": [
-        {{
+        {
           "phase_id": 1,
           "title": "Phase Name",
           "description": "Detailed explanation of what will be built",
           "files_to_modify": ["path/to/file.py"],
           "assumptions": ["Explicit assumptions made"]
-        }}
+        }
       ]
-    }}
+    }
     """
     
     response = client.messages.create(
@@ -215,6 +216,7 @@ def compile_coding_plan(issue_description, directory_skeleton):
     
     return json.loads(response.content[0].text)
 ```
+{% endraw %}
 
 ### Step 3: Implement the Interactive Approval Gate
 Build a lightweight dashboard or CLI tool that reads this JSON output and displays it to the developer.
@@ -224,7 +226,8 @@ Do not let your system progress to code generation automatically. The developer 
 ### Step 4: The Step-by-Step Execution Loop
 Once approved, pass only one plan phase at a time to your execution agent. This keeps the context window exceptionally clean and focused.
 
-```markdown
+{% raw %}
+```python
 def execute_approved_phase(phase_details, file_contents):
     client = anthropic.Anthropic()
     
@@ -246,6 +249,7 @@ def execute_approved_phase(phase_details, file_contents):
     
     return response.content[0].text
 ```
+{% endraw %}
 Once the agent returns the modified code, programmatically execute your test suite using the test command specified in CLAUDE.md (e.g., pytest). If the tests fail, feed the stack trace back to the execution agent to automatically correct its work.
 
 ---

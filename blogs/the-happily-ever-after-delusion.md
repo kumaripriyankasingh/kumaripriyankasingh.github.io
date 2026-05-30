@@ -2,8 +2,7 @@
 layout: default
 title: "The Happily Ever After Delusion"
 date: 2026-03-28
-
-
+tl_dr: "Marriage, kids, and 'settling down' aren't magic fixes—they're societal expectations we've been sold. A brutally honest look at what we're really signing up for."
 ---
 
 # The "Happily Ever After" Delusion

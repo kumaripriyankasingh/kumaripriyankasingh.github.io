@@ -1,5 +1,8 @@
 ---
 layout: default
+title: "Distributed Transactions in Microservices"
+date: 2026-02-20
+tl_dr: "Coordinating transactions across services is tricky. Compare Two-Phase Commit vs. Saga pattern and learn when to use each."
 ---
 
 # Distributed Transactions in Microservices
