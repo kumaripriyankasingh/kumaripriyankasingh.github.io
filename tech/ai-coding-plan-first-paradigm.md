@@ -2,6 +2,7 @@
 layout: default
 title: "The Hidden Cost of Fast Code: Why AI Coding Needs a \"Plan-First\" Paradigm Shift"
 date: 2026-05-29
+tl_dr: "AI-assisted development is fast, but speed without planning can create hidden quality costs. Explore why plan-first workflows help teams ship safer, better-aligned code."
 ---
 
 # The Hidden Cost of Fast Code: Why AI Coding Needs a "Plan-First" Paradigm Shift

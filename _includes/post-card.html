@@ -1,0 +1,25 @@
+{% assign post = include.post %}
+<div class="post-item">
+  <a class="post-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+  <span class="post-meta">{{ post.date | date: "%b %d, %Y" }}</span>
+  {% if post.tl_dr %}
+    <p class="post-excerpt">{{ post.tl_dr }}</p>
+  {% else %}
+    {% assign excerpt_source = "" %}
+    {% assign content_lines = post.content | newline_to_br | split: "<br />" %}
+    {% for line in content_lines %}
+      {% assign clean_line = line | strip %}
+      {% assign first_character = clean_line | slice: 0 %}
+      {% assign is_heading = false %}
+      {% if first_character == "#" or clean_line contains "<h1" or clean_line contains "<h2" or clean_line contains "<h3" %}
+        {% assign is_heading = true %}
+      {% endif %}
+      {% if clean_line != "" and is_heading == false %}
+        {% assign excerpt_source = clean_line %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+    {% capture excerpt_text %}{{ excerpt_source | markdownify | strip_html | replace: "**", "" | strip_newlines | truncate: 280 }}{% endcapture %}
+    <p class="post-excerpt">{{ excerpt_text }}</p>
+  {% endif %}
+</div>

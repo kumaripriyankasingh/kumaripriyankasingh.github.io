@@ -34,8 +34,8 @@
     <nav class="top-right-menu">
       <ul>
         <li><a href="/">Home</a></li>
-        <li><a href="/blogs/">Blogs</a></li>
         <li><a href="/tech/">Tech</a></li>
+        <li><a href="/blogs/">Reflections</a></li>
         <li><a href="/bookshelf/">Bookshelf</a></li>
         <li><a href="/quotes/">Quotes</a></li>
         <li><a href="https://topmate.io/psingh">Contact</a></li>
@@ -104,24 +104,35 @@
       {{ content }}
 
       <hr>
-      <section class="recent-posts">
+      <div class="recent-posts">
         <h2>Recent Posts</h2>
+        <div class="post-category-nav" aria-label="Recent post sections">
+          <a href="#engineering-posts">Engineering</a>
+          <a href="#reflection-posts">Reflections</a>
+        </div>
         {% assign blog_posts = site.pages | where_exp: "p", "p.path contains 'blogs/'" | where_exp: "p", "p.path != 'blogs/index.md'" %}
         {% assign tech_posts = site.pages | where_exp: "p", "p.path contains 'tech/'" | where_exp: "p", "p.path != 'tech/index.md'" %}
-        {% assign all_posts = blog_posts | concat: tech_posts | sort: 'date' | reverse %}
-        {% for post in all_posts limit:10 %}
-        <div class="post-item">
-          <a class="post-title" href="{{ post.url }}">{{ post.title }}</a>
-          <span class="post-meta">{{ post.date | date: "%b %d, %Y" }}</span>
-          {% if post.tl_dr %}
-            <p class="post-excerpt">{{ post.tl_dr }}</p>
-          {% else %}
-            {% capture excerpt_text %}{{ post.content | strip_html | replace: post.title, "" | replace: "# ", "" | replace: "## ", "" | replace: "### ", "" | replace: "**", "" | strip_newlines | truncate: 280 }}{% endcapture %}
-            <p class="post-excerpt">{{ excerpt_text }}</p>
-          {% endif %}
+        {% assign blog_posts = blog_posts | sort: 'date' | reverse %}
+        {% assign tech_posts = tech_posts | sort: 'date' | reverse %}
+        <div class="post-groups">
+          <div class="post-section" id="engineering-posts">
+            <h3>Engineering</h3>
+            <p class="post-section-intro">Systems, AI, architecture, and the craft of building reliable software.</p>
+            {% for post in tech_posts limit:3 %}
+              {% include post-card.html post=post %}
+            {% endfor %}
+            <a class="view-all" href="{{ '/tech/' | relative_url }}">View all Engineering posts</a>
+          </div>
+          <div class="post-section" id="reflection-posts">
+            <h3>Reflections</h3>
+            <p class="post-section-intro">Personal essays on life, belief, grief, friendship, and meaning.</p>
+            {% for post in blog_posts limit:3 %}
+              {% include post-card.html post=post %}
+            {% endfor %}
+            <a class="view-all" href="{{ '/blogs/' | relative_url }}">View all Reflections posts</a>
+          </div>
         </div>
-        {% endfor %}
-      </section>
+      </div>
       <br>
       {% if site.enable_footnote %}
       <p><small>Powered by Jekyll and <a href="https://github.com/pages-themes/minimal" target="_blank"
