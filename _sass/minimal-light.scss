@@ -728,6 +728,7 @@ screen and (max-width: 480px) {
   .post-category-nav {
     display: flex;
     flex-wrap: wrap;
+    align-items: baseline;
     gap: 0.75rem;
     margin-bottom: 1.75rem;
   }
@@ -741,11 +742,10 @@ screen and (max-width: 480px) {
     &:hover { border-bottom-color: #0070c0; }
   }
 
-  .post-category-nav a + a::before {
-    content: "/";
+  .post-category-separator {
     color: #aaa;
-    margin-right: 0.75rem;
     font-weight: 400;
+    font-size: 1.05rem;
   }
 
   .post-groups {

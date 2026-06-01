@@ -25,7 +25,7 @@
     integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin=anonymous>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.time | date: '%s' }}">
 
 </head>
 
@@ -108,6 +108,7 @@
         <h2>Recent Posts</h2>
         <div class="post-category-nav" aria-label="Recent post sections">
           <a href="#engineering-posts">Engineering</a>
+          <span class="post-category-separator" aria-hidden="true">/</span>
           <a href="#reflection-posts">Reflections</a>
         </div>
         {% assign blog_posts = site.pages | where_exp: "p", "p.path contains 'blogs/'" | where_exp: "p", "p.path != 'blogs/index.md'" %}
