@@ -1,11 +1,11 @@
 ---
 layout: default
-title: "Silence is the Language of God"
+title: "The Silence Between the Stories"
 date: 2026-08-08
 tl_dr: "We are not as legible to ourselves as we think. What if the truest thing about us is not what we say, but what we are finally willing to sit with in silence?"
 ---
 
-# Silence is the Language of God
+# The Silence Between the Stories
 
 Everything else is a poor translation - Rumi
 
