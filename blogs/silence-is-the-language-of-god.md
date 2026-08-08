@@ -7,8 +7,6 @@ tl_dr: "We are not as legible to ourselves as we think. What if the truest thing
 
 # The Silence Between the Stories
 
-Everything else is a poor translation - Rumi
-
 I haven't written here in a long time. If you work in tech you probably already know why. AI is eating all of us, and I don't entirely mean that as a complaint.
 
 It feels like we spent our whole lives carrying questions we couldn't answer, and now there's something that will answer all of them, instantly, at 2am, without ever getting tired of us. So everyone's gone a bit quiet. Why write when you can ask. We've all decided to fix our lives first and get back to living afterwards - which is a bit like refusing to open the box until you've read the entire manual, except the box is your life and the manual is being written by something that has never once been left on read.
