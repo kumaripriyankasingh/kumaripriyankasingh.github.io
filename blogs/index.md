@@ -2,6 +2,8 @@
 layout: default
 ---
 
+## [Silence is the Language of God](silence-is-the-language-of-god.md)
+
 ## [God Fearing or God Loving?](god-fearing-or-god-loving.md)
 
 ## [A Day of Loss and Clarity](a-day-of-loss-and-clarity.md)
