@@ -9,11 +9,11 @@ tl_dr: "We are not as legible to ourselves as we think. What if the truest thing
 
 I haven't written here in a long time. If you work in tech you probably already know why. AI is eating all of us, and I don't entirely mean that as a complaint.
 
-It feels like we spent our whole lives carrying questions we couldn't answer, and now there's something that will answer all of them, instantly, at 2am, without ever getting tired of us. So everyone's gone a bit quiet. Why write when you can ask. We've all decided to fix our lives first and get back to living afterwards - which is a bit like refusing to open the box until you've read the entire manual, except the box is your life and the manual is being written by something that has never once been left on read.
+It feels like we spent our whole lives carrying questions we couldn't answer, and now there's something that will answer all of them, instantly, at 2am, without ever getting tired of us. So we've all decided to fix our lives first and get back to living afterwards - which is a bit like refusing to open the box until you've read the entire manual, except the box is your life and the manual is being written by something that has never once been left on read.
 
 Anyway. Something has been going on in my head since yesterday and I need it out of my system, so here it is.
 
-I was walking with a friend. We had about thirty minutes, and we ended up doing that thing where you summarise yourself out loud. This is how I am. This is how I react. This is what I'm like in relationships, this is what I don't handle well. He gave his version. I gave mine.
+I was walking with a friend yesterday. We had about thirty minutes, and we ended up doing that thing where you summarise yourself out loud. This is how I am. This is how I react. This is what I'm like in relationships, this is what I don't handle well. He gave his version. I gave mine.
 
 I have since spent considerably more time reviewing those thirty minutes than we spent having them. Somewhere around the fourth replay I stopped being an overthinker and became a small unfunded research institute.
 
@@ -54,6 +54,8 @@ It can narrate me better than I can narrate me. It just can't be me while it doe
 Because it's still narrating. Same trick my head does, only faster and with better sources. And the one thing it has no access to - the thing nobody has access to - is what was actually happening in me while I was walking and talking and carefully not saying the real thing. That never got written down. It has no text. It isn't in the training data because it was never data.
 
 That part is the only part that was ever mine.
+
+![](../assets/images/silence-between-stories.png)
 
 ## What We Actually Want
 
