@@ -2,6 +2,8 @@
 layout: default
 ---
 
+## [Why Is There Only One Ram?](why-is-there-only-one-ram.md)
+
 ## [The Silence Between the Stories](silence-between-stories.md)
 
 ## [The Quiet Brilliance of Unseen: A Birthday Note for My friend](a-birthday-note-for-my-friend.md)
