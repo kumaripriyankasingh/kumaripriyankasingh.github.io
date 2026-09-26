@@ -2,6 +2,8 @@
 layout: default
 ---
 
+## [Fifteen Years of Corporate Life: What It Gave, and What It Quietly Took](fifteen-years-of-corporate-life.md)
+
 ## [Why Is There Only One Ram?](why-is-there-only-one-ram.md)
 
 ## [The Silence Between the Stories](silence-between-stories.md)
